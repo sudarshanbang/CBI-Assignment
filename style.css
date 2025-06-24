@@ -1,0 +1,140 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar-brand img {
+  height: 50px;
+
+}
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+.sticky-sidebar {
+  position: sticky;
+  top: 20px;
+}
+
+.row.content {
+  height: 450px
+}
+
+
+.sidenav {
+  padding-top: 20px;
+  background-color: #f1f1f1;
+  height: 100%;
+}
+
+footer {
+  background-color: #555;
+  color: white;
+  padding: 15px;
+}
+
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+
+  .row.content {
+    height: auto;
+  }
+}
+
+.sidebar-links li a {
+  color: #333;
+  text-decoration: none;
+  display: block;
+  padding: 6px 0;
+  transition: color 0.3s, padding-left 0.3s;
+}
+
+.sidebar-links li a:hover {
+  color: #007bff;
+  padding-left: 8px;
+}
+
+.transition-btn {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.transition-btn:hover {
+  opacity: 0.9;
+}
+
+.card {
+  border: none;
+  background: #E8F7FC;
+  border-radius: 12px;
+}
+
+.get-sample-btn {
+  border-radius: 30px;
+  padding: 10px 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease;
+  font-weight: 600;
+}
+
+.get-sample-btn:hover {
+  background-color: #c82333;
+  transform: translateY(-50%) scale(1.05);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+}
+
+.get-sample-btn:hover {
+  background-color: #949a93;
+  transform: translateY(-50%) scale(1.05);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+  animation: none;
+}
+
+custom-accordion .accordion-button {
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+  border-radius: 6px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  font-weight: 500;
+}
+
+.custom-accordion .accordion-button {
+  font-size: 0.95rem;
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+  border-radius: 6px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  font-weight: 500;
+  padding: 0.6rem 1rem;
+}
+
+.custom-accordion .accordion-body {
+  font-size: 0.9rem;
+  background-color: #fefefe;
+  border-radius: 0 0 6px 6px;
+  padding: 1rem 1.25rem;
+  color: #333;
+}
+
+
+.custom-accordion .accordion-button:hover {
+  background-color: #e2e6ea;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.custom-accordion .accordion-button:focus {
+  box-shadow: 0 0 0 0.1rem rgba(0, 123, 255, 0.25);
+}
+
+.custom-accordion .accordion-body {
+  background-color: #fefefe;
+  border-radius: 0 0 6px 6px;
+  padding: 1rem 1.25rem;
+  color: #333;
+}
+
+.accordion-item {
+  border-radius: 6px;
+  overflow: hidden;
+}
